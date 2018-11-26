@@ -1,3 +1,90 @@
-*{
-    
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Rokkitt');
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    /* font-family: Rokkitt; */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    padding: 23px;
+    margin: 0 auto;
+    z-index: 100;
+    height: 65px;
+    background: rgba(34, 34, 34, 0.8);
+    background-blend-mode: darken;
+}
+
+div {
+   
+}
+
+div ul {
+    list-style-type: none;
+    float: right;
+    position: relative;
+    left: -50%;
+}
+
+div ul li {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+/*при наведенні міняється колір*/
+
+div a:hover {
+    color: #f4df42;
+}
+img{
+    margin-right: 50px;
+}
+
+.topHead {
+    font-family: Cinzel;
+    width: 100%;
+    /* color: #777; */
+    /* padding-top: 100px;
+    margin-top: -198px;
+    margin-bottom: -100px; */
+}
+
+.backgroundTop {
+    background: url(./img/head1.jpg) no-repeat;
+    background-position: 55% 55%;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 400px;
+}
+.top-buffer { 
+    margin-top:50px; 
+}
+
+.photoTop{
+    width: 70%;
+    margin-left: 25%;
+}
+
+.photoSize{
+    width: 80%;
+}
+
+
+
+
